@@ -24,3 +24,45 @@
 - **Backend API:** RESTful endpoints
 
 ---
+
+## How to run app locally
+
+### Clone the repository
+
+git clone https://github.com/MilosS994/Notey.git
+cd notey
+
+### Setup backend
+
+cd server
+npm install
+
+### Create a .env file inside the server/ folder with the following content:
+
+PORT=5500
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+CLIENT_URL=http://localhost:5173
+
+### Start the backend server
+
+npm run dev
+
+### Setup frontend
+
+cd client
+npm install
+
+### Create a .env file inside the client/ folder with the following content:
+
+VITE_API_BASE_URL=http://localhost:5500/api/v1
+
+### Start the frontend
+
+npm run dev
+
+## Access the app
+
+**_Open your browser and navigate to http://localhost:5173_**
+**_Register a new user or log in to an existing one_**
+**_You can now use the protected features of the app_**
