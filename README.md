@@ -63,6 +63,6 @@
 
 ## Access the app
 
-**_Open your browser and navigate to http://localhost:5173_**
-**_Register a new user or log in to an existing one_**
-**_You can now use the protected features of the app_**
+- **_Open your browser and navigate to http://localhost:5173_**
+- **_Register a new user or log in to an existing one_**
+- **_You can now use the protected features of the app_**
