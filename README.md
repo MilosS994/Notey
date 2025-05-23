@@ -29,37 +29,37 @@
 
 ### Clone the repository
 
-git clone https://github.com/MilosS994/Notey.git
-cd notey
+- git clone https://github.com/MilosS994/Notey.git
+- cd notey
 
 ### Setup backend
 
-cd server
-npm install
+- cd server
+- npm install
 
 ### Create a .env file inside the server/ folder with the following content:
 
-PORT=5500
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-CLIENT_URL=http://localhost:5173
+- PORT=5500
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_secret
+- CLIENT_URL=http://localhost:5173
 
 ### Start the backend server
 
-npm run dev
+- npm run dev
 
 ### Setup frontend
 
-cd client
-npm install
+- cd client
+- npm install
 
 ### Create a .env file inside the client/ folder with the following content:
 
-VITE_API_BASE_URL=http://localhost:5500/api/v1
+- VITE_API_BASE_URL=http://localhost:5500/api/v1
 
 ### Start the frontend
 
-npm run dev
+- npm run dev
 
 ## Access the app
 
