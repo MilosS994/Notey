@@ -66,6 +66,7 @@ npm run dev
 
 ## Project Structure
 
+```
 src/
 ├── components/
 │ ├── notes/
@@ -77,6 +78,7 @@ src/
 ├── main.jsx
 ├── app.jsx
 └── index.css
+```
 
 ---
 
