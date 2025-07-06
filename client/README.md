@@ -4,6 +4,10 @@ Modern React app for Notey – notes with priorities, search, tags, and user pro
 
 ---
 
+## Live Demo
+
+Check out the live app: [notey-alpha.vercel.app](https://notey-alpha.vercel.app)
+
 ## Technologies
 
 - React (Vite)
